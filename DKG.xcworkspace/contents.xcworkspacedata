@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:cloud.yml">
+   </FileRef>
+   <FileRef
+      location = "group:Package.resolved">
+   </FileRef>
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
+   <Group
+      location = "group:Public"
+      name = "Public">
+   </Group>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:Sources"
+      name = "Sources">
+      <Group
+         location = "group:App"
+         name = "App">
+         <FileRef
+            location = "group:configure.swift">
+         </FileRef>
+         <Group
+            location = "group:Models"
+            name = "Models">
+            <FileRef
+               location = "group:Todo.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:boot.swift">
+         </FileRef>
+         <Group
+            location = "group:Controllers"
+            name = "Controllers">
+            <FileRef
+               location = "group:TodoController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:app.swift">
+         </FileRef>
+         <FileRef
+            location = "group:routes.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Run"
+         name = "Run">
+         <FileRef
+            location = "group:main.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Tests"
+      name = "Tests">
+      <FileRef
+         location = "group:LinuxMain.swift">
+      </FileRef>
+      <Group
+         location = "group:AppTests"
+         name = "AppTests">
+         <FileRef
+            location = "group:AppTests.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:web.Dockerfile">
+   </FileRef>
+</Workspace>
